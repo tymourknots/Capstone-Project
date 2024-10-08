@@ -149,7 +149,7 @@ public class CommonWordFinder {
      * @param map The map to sort
      * @return A 2D array of sorted words and their counts
      */
-    private static String[][] sortMap(MyMap<String, Integer> map) {
+    public static String[][] sortMap(MyMap<String, Integer> map) {
         String[][] words = new String[map.size()][2];
         int index = 0;
         Iterator<Entry<String, Integer>> itr = map.iterator();
