@@ -39,3 +39,5 @@ The BST was slightly slower than the hash map, which makes sense due to its loga
 
 AVL Tree (avl):
 The AVL tree’s performance was very close to the BST’s, but slightly slower due to the additional rebalancing operations that ensure the tree remains balanced. This additional overhead likely accounts for the marginally longer runtime.
+
+PS- AVLTreeMap, BinarySearchTreePrinter, BSTMap, Entry, MapEntry, MyHashMap, MyMap, Node, and Pair java source code files are not my work! Only CommonWordFinder and CommonWordFinderTest are my written pieces of code for this project!
