@@ -32,7 +32,9 @@ I acquired and strengthened skills in several areas:
 ## Performance Results:
 
 bst: 2.212 seconds
+
 avl: 2.244 seconds
+
 hash: 2.119 seconds
 
 ### Explanation of Results
