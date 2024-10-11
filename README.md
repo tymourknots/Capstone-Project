@@ -16,23 +16,23 @@ I gained insight into how self-balancing structures like AVL trees may not alway
 
 ## Skills Acquired:
 
-#### 1. Java Programming: 
+### 1. Java Programming: 
 
 I reinforced my understanding of core Java concepts such as file handling, string manipulation, and working with collections.
 
-#### 2. Data Structures & Algorithms: 
+### 2. Data Structures & Algorithms: 
 
 I gained practical experience in implementing and using BSTMap, AVLTreeMap, and MyHashMap, and analyzing the trade-offs between these structures.
 
-#### 3. Unit Testing: 
+### 3. Unit Testing: 
 
 This project enhanced my proficiency with JUnit testing, allowing me to create comprehensive test cases that validate program behavior under different scenarios.
 
-#### 4. Maven Integration: 
+### 4. Maven Integration: 
 
 I learned how to set up Maven projects, configure dependencies, and troubleshoot build errors, which streamlined the build and testing processes.
 
-#### 5. Performance Analysis: 
+### 5. Performance Analysis: 
 
 I learned how to measure runtime performance using the command line and used the results to make informed decisions on which data structure was optimal for the problem at hand.
 
