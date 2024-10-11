@@ -35,7 +35,7 @@ bst: 2.212 seconds
 avl: 2.244 seconds
 hash: 2.119 seconds
 
-## Explanation of Results
+### Explanation of Results
 
 1. Hash Map (hash):
 The hash map was the fastest because it provides constant time complexity, O(1), for both insertions and lookups, minimizing the time spent on these operations.
