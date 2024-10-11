@@ -16,8 +16,6 @@ I gained insight into how self-balancing structures like AVL trees may not alway
 
 ## Skills Acquired:
 
-I acquired and strengthened skills in several areas:
-
 #### 1. Java Programming: 
 
 I reinforced my understanding of core Java concepts such as file handling, string manipulation, and working with collections.
