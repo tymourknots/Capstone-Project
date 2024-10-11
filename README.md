@@ -2,15 +2,15 @@
 
 My Capstone Project is a Java-based application designed to analyze text files and identify the most frequently occurring words. The program reads a specified text file, counts the occurrences of each word, and displays the results in a sorted manner, primarily by frequency (from highest to lowest) and secondarily by alphabetical order. It supports multiple data structures, including Binary Search Tree (BST), AVL Tree, and HashMap, to store word counts, allowing for performance comparison between different implementations. The application also includes JUnit tests to validate its functionality and ensure reliability.
 
-### 1. What lessons did you learn from working on this project?
+#### 1. What lessons did you learn from working on this project?
 
 I learned how different data structures significantly impact the performance of various operations such as insertion, lookup, and deletion. While AVL trees offer better lookup times due to self-balancing, they incur extra overhead when rebalancing during frequent insertions. This project demonstrated how these trade-offs play out in real-world scenarios. Additionally, I gained hands-on experience in measuring and analyzing performance metrics to validate theoretical expectations using the time command in the Linux terminal.
 
-### 2. What were some of the specific challenges you faced, and how did you overcome them?
+#### 2. What were some of the specific challenges you faced, and how did you overcome them?
 
 One of the primary challenges was ensuring accurate text parsing, especially when dealing with edge cases such as words starting with double hyphens, special characters, and URL patterns like "www". I solved these issues by refining my regular expressions and incorporating logic to either ignore or count these edge cases. Another challenge was setting up JUnit testing within a Maven project structure, as I encountered issues with Maven dependencies and directory structure. I resolved this by correctly configuring the pom.xml file and ensuring the source files were in their expected locations.
 
-### 3. What insights did you gain regarding performance optimization and testing?
+#### 3. What insights did you gain regarding performance optimization and testing?
 
 I gained insight into how self-balancing structures like AVL trees may not always be the best option when the operation involves frequent insertions. While AVL trees generally outperform BSTs in lookup operations, the cost of rebalancing during insertions resulted in slower performance for this project. The HashMap data structure, on the other hand, showed the best overall performance, reaffirming the importance of choosing the right data structure based on the specific needs of a program.
 
