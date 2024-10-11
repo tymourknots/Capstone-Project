@@ -15,15 +15,18 @@ One of the primary challenges was ensuring accurate text parsing, especially whe
 I gained insight into how self-balancing structures like AVL trees may not always be the best option when the operation involves frequent insertions. While AVL trees generally outperform BSTs in lookup operations, the cost of rebalancing during insertions resulted in slower performance for this project. The HashMap data structure, on the other hand, showed the best overall performance, reaffirming the importance of choosing the right data structure based on the specific needs of a program.
 
 ## Skills Acquired:
-1. What skills did you acquire or develop further during this project?
 
 I acquired and strengthened skills in several areas:
 
-Java Programming: I reinforced my understanding of core Java concepts such as file handling, string manipulation, and working with collections.
-Data Structures & Algorithms: I gained practical experience in implementing and using BSTMap, AVLTreeMap, and MyHashMap, and analyzing the trade-offs between these structures.
-Unit Testing: This project enhanced my proficiency with JUnit testing, allowing me to create comprehensive test cases that validate program behavior under different scenarios.
-Maven Integration: I learned how to set up Maven projects, configure dependencies, and troubleshoot build errors, which streamlined the build and testing processes.
-Performance Analysis: I learned how to measure runtime performance using the command line and used the results to make informed decisions on which data structure was optimal for the problem at hand.
+1. Java Programming: I reinforced my understanding of core Java concepts such as file handling, string manipulation, and working with collections.
+
+2. Data Structures & Algorithms: I gained practical experience in implementing and using BSTMap, AVLTreeMap, and MyHashMap, and analyzing the trade-offs between these structures.
+
+3. Unit Testing: This project enhanced my proficiency with JUnit testing, allowing me to create comprehensive test cases that validate program behavior under different scenarios.
+
+4. Maven Integration: I learned how to set up Maven projects, configure dependencies, and troubleshoot build errors, which streamlined the build and testing processes.
+
+5. Performance Analysis: I learned how to measure runtime performance using the command line and used the results to make informed decisions on which data structure was optimal for the problem at hand.
 
 
 ## Performance Results:
