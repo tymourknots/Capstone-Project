@@ -18,32 +18,45 @@ I gained insight into how self-balancing structures like AVL trees may not alway
 
 I acquired and strengthened skills in several areas:
 
-1. Java Programming: I reinforced my understanding of core Java concepts such as file handling, string manipulation, and working with collections.
+### 1. Java Programming: 
 
-2. Data Structures & Algorithms: I gained practical experience in implementing and using BSTMap, AVLTreeMap, and MyHashMap, and analyzing the trade-offs between these structures.
+I reinforced my understanding of core Java concepts such as file handling, string manipulation, and working with collections.
 
-3. Unit Testing: This project enhanced my proficiency with JUnit testing, allowing me to create comprehensive test cases that validate program behavior under different scenarios.
+### 2. Data Structures & Algorithms: 
 
-4. Maven Integration: I learned how to set up Maven projects, configure dependencies, and troubleshoot build errors, which streamlined the build and testing processes.
+I gained practical experience in implementing and using BSTMap, AVLTreeMap, and MyHashMap, and analyzing the trade-offs between these structures.
 
-5. Performance Analysis: I learned how to measure runtime performance using the command line and used the results to make informed decisions on which data structure was optimal for the problem at hand.
+### 3. Unit Testing: 
+
+This project enhanced my proficiency with JUnit testing, allowing me to create comprehensive test cases that validate program behavior under different scenarios.
+
+### 4. Maven Integration: 
+
+I learned how to set up Maven projects, configure dependencies, and troubleshoot build errors, which streamlined the build and testing processes.
+
+### 5. Performance Analysis: 
+
+I learned how to measure runtime performance using the command line and used the results to make informed decisions on which data structure was optimal for the problem at hand.
 
 
 ## Performance Results:
 
-bst: 2.212 seconds
+**bst:** 2.212 seconds
 
-avl: 2.244 seconds
+**avl:** 2.244 seconds
 
-hash: 2.119 seconds
+**hash:** 2.119 seconds
 
 ### Explanation of Results
 
-1. Hash Map (hash):
+#### 1. Hash Map (hash):
+
 The hash map was the fastest because it provides constant time complexity, O(1), for both insertions and lookups, minimizing the time spent on these operations.
 
-2. Binary Search Tree (bst):
+#### 2. Binary Search Tree (bst):
+
 The BST was slightly slower than the hash map, which makes sense due to its logarithmic time complexity, O(log n). It’s surprising that it wasn’t significantly slower, which could indicate that the tree was fairly balanced for the given input.
 
-3. AVL Tree (avl):
+#### 3. AVL Tree (avl):
+
 The AVL tree’s performance was very close to the BST’s, but slightly slower due to the additional rebalancing operations that ensure the tree remains balanced. This additional overhead likely accounts for the marginally longer runtime.
